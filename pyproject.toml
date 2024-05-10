@@ -10,7 +10,7 @@ classifiers = [
   "Programming Language :: Python"
 ]
 packages = [
-  { include = "hexlet-code" },
+  { include = "gendiff" },
 ]
 
 
