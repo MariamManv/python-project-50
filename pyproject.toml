@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "hexlet-code"
+version = "0.1.0"
+description = "Difference calculator"
+authors = ["Mariam Manvelian <nimbooda979@mail.ru>"]
+readme = "README.md"
+repository = "https://github.com/MariamManv/python-project-50.git"
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python"
+]
+packages = [
+  { include = "hexlet-code" },
+]
+
+
+[tool.poetry.dependencies]
+python = "^3.11"
+argparse = "^1.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.poetry.scripts]
+gendiff = "gendiff.scripts.gendiff:main"
