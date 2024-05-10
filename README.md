@@ -4,7 +4,7 @@ A difference calculator is a program that determines the difference between two 
 
 Utility features:
 * Supports different input formats: yaml, json
-* Generating a report in the form of plain text, stylish and json
+* Generating a report in the form of plain text, stylish and json.
 
 Usage example:
 
