@@ -14,7 +14,9 @@ shows a difference.''',
     parser.add_argument('second_file')
     parser.add_argument('-f', '--format', help='set format of output')
     args = parser.parse_args()
-    def generate_diff(file_path1, file_path2):
+
+
+def generate_diff(file_path1, file_path2):
         result = generate_diff_data(file_path1, file_path2)
         return json.dumps(result, sort_keys=True)
 
